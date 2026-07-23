@@ -6,4 +6,4 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
 
-This license applies to author-written code and documentation only. Third-party data and processed derivatives remain subject to the source-specific terms in docs/DATA_SOURCES.md.
+This license applies to author-written code and documentation only. Author-created derived tables and figure-source data are covered separately by `DATA_LICENSE.md`. Third-party source materials remain subject to the terms documented in `docs/DATA_SOURCES.md`.

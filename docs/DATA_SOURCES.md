@@ -10,3 +10,6 @@ This archive distributes processed, derived analysis inputs and does not redistr
 | Carbon, PUE, WUE, capacity, and water-stress layers | Study-specific scenario tables | Explicit analysis inputs and derived scenarios. They are not operator telemetry. |
 
 The archive does not grant rights to redistribute any source dataset beyond its original terms.
+
+Author-created derived tables and figure-source CSVs are CC BY 4.0 as described
+in `DATA_LICENSE.md`; this does not alter any upstream restriction.

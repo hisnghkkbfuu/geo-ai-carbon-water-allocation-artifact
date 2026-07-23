@@ -1,9 +1,25 @@
 cff-version: 1.2.0
-message: If you use this reproducibility archive, please cite the associated manuscript.
-title: Carbon-Water Trade-offs in Geo-distributed AI Inference Allocation under Water-Stress Screening
+message: If you use this reproducibility artifact, please cite the artifact and the associated manuscript.
+title: 'Carbon-Water Trade-offs in Geo-distributed AI Inference Allocation under Water-Stress Screening: Reproducibility Artifact'
 version: 1.0.0
 date-released: 2026-07-23
 repository-code: https://github.com/hisnghkkbfuu/geo-ai-carbon-water-allocation-artifact
+license: MIT
+type: software
+abstract: >-
+  Independent reproducibility artifact for a scenario-bounded, trace-driven
+  lexicographic allocation analysis. The package contains portable code,
+  author-created derived inputs and results, figure source data, frozen exports,
+  and deterministic tests. It does not redistribute third-party raw request
+  traces or claim measured operator outcomes.
+keywords:
+  - AI inference
+  - geo-distributed data centers
+  - carbon-aware scheduling
+  - workload migration
+  - direct water use
+  - water stress
+  - lexicographic optimization
 authors:
   - family-names: Zhang
     given-names: Qian

@@ -1,7 +1,7 @@
 {
-  "title": "Carbon-Water Trade-offs in Geo-distributed AI Inference Allocation under Water-Stress Screening",
+  "title": "Carbon-Water Trade-offs in Geo-distributed AI Inference Allocation under Water-Stress Screening: Reproducibility Artifact",
   "version": "1.0.0",
-  "description": "Reproducibility archive for a scenario-bounded, trace-driven lexicographic AI-inference allocation analysis. Code is MIT licensed; data terms are documented separately.",
+  "description": "Independent v1.0.0 reproducibility artifact for a scenario-bounded, trace-driven lexicographic AI-inference allocation analysis. It contains portable code, author-created derived inputs and results, figure source data, frozen exports, and deterministic tests. It does not redistribute third-party raw request traces, operator telemetry, or hydrologic-impact estimates, and it does not support measured operational or causal policy claims. Code and documentation are MIT licensed; author-created derived tables and figure source CSVs are CC BY 4.0; third-party source terms remain controlling.",
   "creators": [
     {
       "name": "Zhang, Qian",
@@ -18,9 +18,27 @@
   ],
   "keywords": [
     "AI inference",
+    "geo-distributed data centers",
     "carbon-aware scheduling",
+    "workload migration",
     "direct water use",
-    "reproducibility"
+    "water stress",
+    "lexicographic optimization"
   ],
-  "upload_type": "software"
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "mit",
+  "language": "eng",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/hisnghkkbfuu/geo-ai-carbon-water-allocation-artifact",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/hisnghkkbfuu/geo-ai-carbon-water-allocation-artifact/releases/tag/v1.0.0",
+      "relation": "isIdenticalTo",
+      "scheme": "url"
+    }
+  ]
 }
