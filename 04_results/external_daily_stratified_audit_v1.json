@@ -1,0 +1,39 @@
+{
+  "status": "ANALYZED",
+  "purpose": "daily direction audit; not an additional confirmatory endpoint",
+  "mappings": {
+    "frozen_global_upper": {
+      "days": 7,
+      "days_e1_carbon_lower_than_e0": 7,
+      "days_e2_carbon_lower_than_e0": 7,
+      "days_e1_high_stress_water_above_e0": 4,
+      "e1_carbon_change_min_pct": -16.79895400215763,
+      "e1_carbon_change_max_pct": -13.3634935591882,
+      "e2_vs_e1_carbon_penalty_min_pct": 0.0,
+      "e2_vs_e1_carbon_penalty_max_pct": 0.3852537454806404,
+      "max_abs_service_difference_accelerator_hours": 1.4551915228366852e-11
+    },
+    "local_simplex_upper": {
+      "days": 7,
+      "days_e1_carbon_lower_than_e0": 7,
+      "days_e2_carbon_lower_than_e0": 7,
+      "days_e1_high_stress_water_above_e0": 4,
+      "e1_carbon_change_min_pct": -16.82645423992056,
+      "e1_carbon_change_max_pct": -13.371273969001008,
+      "e2_vs_e1_carbon_penalty_min_pct": 0.0,
+      "e2_vs_e1_carbon_penalty_max_pct": 0.38780504101516566,
+      "max_abs_service_difference_accelerator_hours": 3.637978807091713e-12
+    },
+    "triangulated_linear": {
+      "days": 7,
+      "days_e1_carbon_lower_than_e0": 7,
+      "days_e2_carbon_lower_than_e0": 7,
+      "days_e1_high_stress_water_above_e0": 4,
+      "e1_carbon_change_min_pct": -16.94515827260773,
+      "e1_carbon_change_max_pct": -13.194888296716611,
+      "e2_vs_e1_carbon_penalty_min_pct": 0.0,
+      "e2_vs_e1_carbon_penalty_max_pct": 0.41519531481748473,
+      "max_abs_service_difference_accelerator_hours": 0.0
+    }
+  }
+}

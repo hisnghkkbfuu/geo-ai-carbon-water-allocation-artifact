@@ -1,0 +1,50 @@
+{
+  "status": "ANALYZED",
+  "workload": {
+    "raw_rows": 26823,
+    "succeed_rows": 26392,
+    "valid_positive_execution_rows": 26392,
+    "excluded_succeed_nonpositive_or_missing_execution_rows": 0,
+    "first_timestamp": "2024-11-15 16:00:00",
+    "last_timestamp": "2024-12-08 17:00:00",
+    "hourly_rows": 554,
+    "nonzero_hours": 370,
+    "total_requests": 26392,
+    "total_service_accelerator_hours": 211.94722222222225,
+    "all_positive_execution_rows": 26793,
+    "all_positive_execution_accelerator_hours": 213.58305555555557,
+    "non_succeed_positive_execution_accelerator_hours": 1.6358333333333235,
+    "non_succeed_execution_overhead_share": 0.007659003328135405,
+    "peak_hour_service_accelerator_hours": 3.5080555555555555,
+    "request_types": [
+      "IMG_2_IMG",
+      "INPAINTING",
+      "TXT_2_IMG"
+    ],
+    "timestamp_rule": "full anonymized timestamp retained and aggregated by clock hour"
+  },
+  "carbon_rows": 6648,
+  "carbon_scenarios": [
+    "conservative_site_selection",
+    "equal_site_portfolio",
+    "optimistic_site_selection"
+  ],
+  "regions": [
+    "east",
+    "north",
+    "northwest",
+    "southwest"
+  ],
+  "wue_definition": "liters of direct water per kWh of IT electricity",
+  "wue_anchors": {
+    "0.36": "LBNL modeled U.S. average site WUE through 2023",
+    "1.15": "Google 2023-2024 freshwater WUE Category 2 for LLM-supporting data centers",
+    "2.00": "explicit upper mechanism stress test; not a measured EDWC value"
+  },
+  "claim_boundary": [
+    "No Alibaba geographic placement is inferred.",
+    "No operator facility capacity is claimed.",
+    "Absolute accelerator-hours assume one accelerator-equivalent per request execution.",
+    "Aqueduct is used only for screening categories."
+  ]
+}

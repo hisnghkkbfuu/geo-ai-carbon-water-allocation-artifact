@@ -1,0 +1,26 @@
+{
+  "title": "Carbon-Water Trade-offs in Geo-distributed AI Inference Allocation under Water-Stress Screening",
+  "version": "1.0.0",
+  "description": "Reproducibility archive for a scenario-bounded, trace-driven lexicographic AI-inference allocation analysis. Code is MIT licensed; data terms are documented separately.",
+  "creators": [
+    {
+      "name": "Zhang, Qian",
+      "affiliation": "North China Electric Power University"
+    },
+    {
+      "name": "Sheng, Shengyu",
+      "affiliation": "North China Electric Power University"
+    },
+    {
+      "name": "Liu, Tongna",
+      "affiliation": "North China Electric Power University"
+    }
+  ],
+  "keywords": [
+    "AI inference",
+    "carbon-aware scheduling",
+    "direct water use",
+    "reproducibility"
+  ],
+  "upload_type": "software"
+}

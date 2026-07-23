@@ -1,0 +1,9 @@
+water_risk_mapping,region,aqueduct_bws_score,aqueduct_bws_category,high_or_extremely_high,source_hubs,use_boundary
+portfolio_mean,east,2.9691168347500003,medium_high,False,Yangtze River Delta,screening category only; not multiplied into physical water liters
+portfolio_mean,north,4.751478016,extremely_high,True,Inner Mongolia,screening category only; not multiplied into physical water liters
+portfolio_mean,northwest,3.8539891965,high,True,Gansu|Ningxia,screening category only; not multiplied into physical water liters
+portfolio_mean,southwest,1.820440149,low_medium,False,Chengdu-Chongqing|Guizhou,screening category only; not multiplied into physical water liters
+conservative_max,east,3.635051809,high,True,Yangtze River Delta,screening category only; not multiplied into physical water liters
+conservative_max,north,4.751478016,extremely_high,True,Inner Mongolia,screening category only; not multiplied into physical water liters
+conservative_max,northwest,4.100621557,extremely_high,True,Gansu|Ningxia,screening category only; not multiplied into physical water liters
+conservative_max,southwest,3.042966045,high,True,Chengdu-Chongqing|Guizhou,screening category only; not multiplied into physical water liters

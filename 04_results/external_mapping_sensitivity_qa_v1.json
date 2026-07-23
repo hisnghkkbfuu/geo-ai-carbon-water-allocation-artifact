@@ -1,0 +1,86 @@
+{
+  "status": "POST_CONFIRMATION_EXPLORATORY",
+  "endpoint_diagnostics": {
+    "triangulated_linear": {
+      "status": "PASS",
+      "checks": {
+        "endpoint_1_e1_carbon_direction_confirmed": true,
+        "endpoint_2_e1_high_stress_transfer_confirmed": true,
+        "endpoint_3_e2_carbon_direction_retained": true,
+        "endpoint_4_equal_service": true
+      },
+      "service_tolerance_accelerator_hours": 0.01891675005664886,
+      "absolute_service_differences_accelerator_hours": {
+        "E1_carbon_first": 3.637978807091713e-12,
+        "E2_zero_high_stress_exposure": 0.0
+      },
+      "frozen_protocol": "00_governance/external_confirmation_protocol_v1.md",
+      "mapping_addendum": "00_governance/external_confirmation_mapping_addendum_v1.md",
+      "status_label": "EXPLORATORY_DIRECTIONAL_DIAGNOSTIC"
+    },
+    "local_simplex_upper": {
+      "status": "PASS",
+      "checks": {
+        "endpoint_1_e1_carbon_direction_confirmed": true,
+        "endpoint_2_e1_high_stress_transfer_confirmed": true,
+        "endpoint_3_e2_carbon_direction_retained": true,
+        "endpoint_4_equal_service": true
+      },
+      "service_tolerance_accelerator_hours": 0.12467943307284693,
+      "absolute_service_differences_accelerator_hours": {
+        "E1_carbon_first": 0.0,
+        "E2_zero_high_stress_exposure": 0.0
+      },
+      "frozen_protocol": "00_governance/external_confirmation_protocol_v1.md",
+      "mapping_addendum": "00_governance/external_confirmation_mapping_addendum_v1.md",
+      "status_label": "EXPLORATORY_DIRECTIONAL_DIAGNOSTIC"
+    }
+  },
+  "solution_audits": {
+    "triangulated_linear": {
+      "E0_true_no_migration_status_quo": {
+        "max_abs_demand_balance_error": 0.0,
+        "max_capacity_violation": 0.0,
+        "max_migration_violation": 0.0,
+        "ineligible_latency_assignment": 0.0
+      },
+      "E1_carbon_first": {
+        "max_abs_demand_balance_error": 2.842170943040401e-14,
+        "max_capacity_violation": 0.0,
+        "max_migration_violation": 0.0,
+        "ineligible_latency_assignment": 0.0
+      },
+      "E2_zero_high_stress_exposure": {
+        "max_abs_demand_balance_error": 2.842170943040401e-14,
+        "max_capacity_violation": 0.0,
+        "max_migration_violation": 0.0,
+        "ineligible_latency_assignment": 0.0
+      }
+    },
+    "local_simplex_upper": {
+      "E0_true_no_migration_status_quo": {
+        "max_abs_demand_balance_error": 0.0,
+        "max_capacity_violation": 0.0,
+        "max_migration_violation": 0.0,
+        "ineligible_latency_assignment": 0.0
+      },
+      "E1_carbon_first": {
+        "max_abs_demand_balance_error": 2.2737367544323206e-13,
+        "max_capacity_violation": 0.0,
+        "max_migration_violation": 0.0,
+        "ineligible_latency_assignment": 0.0
+      },
+      "E2_zero_high_stress_exposure": {
+        "max_abs_demand_balance_error": 2.2737367544323206e-13,
+        "max_capacity_violation": 0.0,
+        "max_migration_violation": 0.0,
+        "ineligible_latency_assignment": 0.0
+      }
+    }
+  },
+  "output_sha256": {
+    "external_mapping_sensitivity_policy_metrics_v1.csv": "4d8ccdee36bf0835337d6d55c5821f3532e57bcb72a79c80279f4302d5213d7f",
+    "external_mapping_sensitivity_policy_dispatch_v1.csv": "83a494a1686398f1f3cc17f2f9f9dcd6f9180fab09d008b42ac92b323f4595e4",
+    "external_mapping_sensitivity_intervals_v1.csv": "181135d369b23a74cb48e63479303f7d6c37d55d68cbcc723ccc5578a310edfb"
+  }
+}

@@ -1,0 +1,224 @@
+{
+  "status": "AUDIT_PASS_WITH_CALLOUT_INSERTION_PENDING",
+  "date": "2026-07-21",
+  "backend": "Python only",
+  "core_conclusion": "The four-figure sequence establishes the analysis architecture, equal-service carbon-water operating points, WUE-dependent water heterogeneity, and robustness with explicit calibration boundaries.",
+  "evidence_sequence": [
+    "Fig. 1: system and accounting architecture",
+    "Fig. 2: primary equal-service carbon-exposure result",
+    "Fig. 3: spatial WUE mechanism and screening sensitivity",
+    "Fig. 4: matched-service robustness, external direction, calibration boundary, and falsification"
+  ],
+  "figure_count": 4,
+  "panel_count": 17,
+  "figures": [
+    {
+      "figure": "Fig. 1",
+      "title": "Evidence and accounting architecture for spatial AI-inference allocation",
+      "source_rows": 18,
+      "expected_source_rows": 18,
+      "panel_count": 3,
+      "legend_words": 158,
+      "width_mm": 182.9999999999947,
+      "height_mm": 149.99999999999972,
+      "svg_text_nodes": 83,
+      "pdf_type3_fonts": 0,
+      "tiff_dpi": [
+        600.0,
+        600.0
+      ],
+      "tiff_compression": "tiff_lzw",
+      "png_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "png_canvas_clearance_ltrb_px": [
+        77,
+        19,
+        34,
+        119
+      ],
+      "source_assertions_pass": true,
+      "source_hash_match": true,
+      "output_hashes_match": true,
+      "script_compiles": true,
+      "policy_color_contract_pass": true,
+      "manuscript_callout_count": 0,
+      "files": {
+        "legend": "38_fig01_legend_v1.md",
+        "source_data": "figures/fig01/fig01_source_data_v1.csv",
+        "source_manifest": "figures/fig01/fig01_source_manifest_v1.json",
+        "script": "figures/fig01/fig01_evidence_architecture_v1.py",
+        "export_manifest": "figures/fig01/fig01_export_manifest_v1.json",
+        "svg": "figures/fig01/fig01_evidence_architecture_v1.svg",
+        "pdf": "figures/fig01/fig01_evidence_architecture_v1.pdf",
+        "tiff": "figures/fig01/fig01_evidence_architecture_v1.tiff",
+        "png": "figures/fig01/fig01_evidence_architecture_v1.png"
+      }
+    },
+    {
+      "figure": "Fig. 2",
+      "title": "Equal-service carbon and high-stress direct-water operating points",
+      "source_rows": 10,
+      "expected_source_rows": 10,
+      "panel_count": 4,
+      "legend_words": 190,
+      "width_mm": 182.9999999999947,
+      "height_mm": 134.99999999998914,
+      "svg_text_nodes": 62,
+      "pdf_type3_fonts": 0,
+      "tiff_dpi": [
+        600.0,
+        600.0
+      ],
+      "tiff_compression": "tiff_lzw",
+      "png_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "png_canvas_clearance_ltrb_px": [
+        66,
+        55,
+        35,
+        56
+      ],
+      "source_assertions_pass": true,
+      "source_hash_match": true,
+      "output_hashes_match": true,
+      "script_compiles": true,
+      "policy_color_contract_pass": true,
+      "manuscript_callout_count": 0,
+      "files": {
+        "legend": "41_fig02_legend_v1.md",
+        "source_data": "figures/fig02/fig02_source_data_v1.csv",
+        "source_manifest": "figures/fig02/fig02_source_manifest_v1.json",
+        "script": "figures/fig02/fig02_equal_service_tradeoff_v1.py",
+        "export_manifest": "figures/fig02/fig02_export_manifest_v1.json",
+        "svg": "figures/fig02/fig02_equal_service_tradeoff_v1.svg",
+        "pdf": "figures/fig02/fig02_equal_service_tradeoff_v1.pdf",
+        "tiff": "figures/fig02/fig02_equal_service_tradeoff_v1.tiff",
+        "png": "figures/fig02/fig02_equal_service_tradeoff_v1.png"
+      }
+    },
+    {
+      "figure": "Fig. 3",
+      "title": "Spatial WUE heterogeneity separates total direct water from high-stress exposure",
+      "source_rows": 162,
+      "expected_source_rows": 162,
+      "panel_count": 4,
+      "legend_words": 171,
+      "width_mm": 182.9999999999947,
+      "height_mm": 134.99999999998914,
+      "svg_text_nodes": 67,
+      "pdf_type3_fonts": 0,
+      "tiff_dpi": [
+        600.0,
+        600.0
+      ],
+      "tiff_compression": "tiff_lzw",
+      "png_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "png_canvas_clearance_ltrb_px": [
+        51,
+        74,
+        29,
+        62
+      ],
+      "source_assertions_pass": true,
+      "source_hash_match": true,
+      "output_hashes_match": true,
+      "script_compiles": true,
+      "policy_color_contract_pass": true,
+      "manuscript_callout_count": 0,
+      "files": {
+        "legend": "44_fig03_legend_v1.md",
+        "source_data": "figures/fig03/fig03_source_data_v1.csv",
+        "source_manifest": "figures/fig03/fig03_source_manifest_v1.json",
+        "script": "figures/fig03/fig03_wue_heterogeneity_v1.py",
+        "export_manifest": "figures/fig03/fig03_export_manifest_v1.json",
+        "svg": "figures/fig03/fig03_wue_heterogeneity_v1.svg",
+        "pdf": "figures/fig03/fig03_wue_heterogeneity_v1.pdf",
+        "tiff": "figures/fig03/fig03_wue_heterogeneity_v1.tiff",
+        "png": "figures/fig03/fig03_wue_heterogeneity_v1.png"
+      }
+    },
+    {
+      "figure": "Fig. 4",
+      "title": "Matched-service and external diagnostics bound the robustness of carbon-aware routing",
+      "source_rows": 91,
+      "expected_source_rows": 91,
+      "panel_count": 6,
+      "legend_words": 234,
+      "width_mm": 182.9999999999947,
+      "height_mm": 169.99999999999028,
+      "svg_text_nodes": 190,
+      "pdf_type3_fonts": 0,
+      "tiff_dpi": [
+        600.0,
+        600.0
+      ],
+      "tiff_compression": "tiff_lzw",
+      "png_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "png_canvas_clearance_ltrb_px": [
+        16,
+        35,
+        29,
+        34
+      ],
+      "source_assertions_pass": true,
+      "source_hash_match": true,
+      "output_hashes_match": true,
+      "script_compiles": true,
+      "policy_color_contract_pass": true,
+      "manuscript_callout_count": 0,
+      "files": {
+        "legend": "47_fig04_legend_v1.md",
+        "source_data": "figures/fig04/fig04_source_data_v1.csv",
+        "source_manifest": "figures/fig04/fig04_source_manifest_v1.json",
+        "script": "figures/fig04/fig04_matched_service_robustness_v1.py",
+        "export_manifest": "figures/fig04/fig04_export_manifest_v1.json",
+        "svg": "figures/fig04/fig04_matched_service_robustness_v1.svg",
+        "pdf": "figures/fig04/fig04_matched_service_robustness_v1.pdf",
+        "tiff": "figures/fig04/fig04_matched_service_robustness_v1.tiff",
+        "png": "figures/fig04/fig04_matched_service_robustness_v1.png"
+      }
+    }
+  ],
+  "panel_manifest": {
+    "path": "50_figure_set_manifest_v1.csv",
+    "rows": 17,
+    "sha256": "ec7779a3924010687016171ad4f3f2e9f3d771ee2bdf5be8a23375379282e13d"
+  },
+  "assertions": {
+    "four_figure_packages_present": true,
+    "seventeen_frozen_panel_contracts": true,
+    "panel_letters_are_complete_and_sequential": true,
+    "all_evidence_ids_exist_in_frozen_claim_table": true,
+    "all_source_manifests_present_and_assertions_pass": true,
+    "all_source_hashes_match_manifests": true,
+    "all_output_hashes_match_manifests": true,
+    "all_python_generators_compile": true,
+    "all_figures_are_183_mm_wide_with_contract_heights": true,
+    "all_svgs_have_editable_text": true,
+    "all_pdfs_have_no_type3_fonts": true,
+    "all_tiffs_are_600_dpi_lzw": true,
+    "all_pngs_are_300_dpi_and_nonblank": true,
+    "all_legends_match_titles_are_self_contained_and_below_300_words": true,
+    "policy_and_stress_colors_match_cross_figure_contract": true,
+    "no_private_absolute_paths_in_svgs": true,
+    "all_recommended_callout_anchors_exist": true
+  },
+  "manuscript_integration": {
+    "manuscript": "27_full_english_manuscript_numbered_citations_v1.md",
+    "current_panel_callouts_present": 0,
+    "required_panel_callouts": 17,
+    "all_callout_anchors_exist": true,
+    "next_action": "Insert the recommended callouts during the manuscript-figure integration stage; do not modify the frozen evidence meaning."
+  },
+  "interpretation_boundary": "DIRECTIONAL_MECHANISM_ONLY"
+}

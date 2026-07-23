@@ -1,0 +1,60 @@
+{
+  "status": "ANALYZED",
+  "trace": {
+    "raw_rows": 16803695,
+    "valid_rows": 16803695,
+    "excluded_invalid_rows": 0,
+    "invalid_row_share": 0.0,
+    "first_timestamp_utc": "2024-05-10 00:00:00+00:00",
+    "last_timestamp_utc": "2024-05-16 23:00:00+00:00",
+    "coverage_hours_between_endpoints": 167.0,
+    "hourly_rows": 168,
+    "nonzero_hours": 168,
+    "total_service_accelerator_hours": 607105.5968132218,
+    "peak_hour_service_accelerator_hours": 11363.056076666568,
+    "boundary_fallback_requests": 3995003,
+    "boundary_fallback_request_share": 0.237745507758859,
+    "boundary_fallback_service_accelerator_hours": 589929.47187865,
+    "boundary_fallback_service_share": 0.9717081756044886,
+    "processed_context_token_quantiles": {
+      "0.0": 1,
+      "0.25": 938,
+      "0.5": 1930,
+      "0.75": 3344,
+      "0.9": 4087,
+      "0.95": 4093,
+      "0.99": 4095,
+      "1.0": 4095
+    },
+    "processed_generated_token_quantiles": {
+      "0.0": 1,
+      "0.25": 3,
+      "0.5": 8,
+      "0.75": 18,
+      "0.9": 43,
+      "0.95": 79,
+      "0.99": 271,
+      "1.0": 4095
+    },
+    "service_definition": "Vidur H100/Llama-2-70B request_execution_time x TP8 / 3600; model-calibrated H100-equivalent accelerator-hours, not Azure-measured GPU occupancy"
+  },
+  "vidur": {
+    "grid_requests": 168,
+    "max_scheduling_delay_s": 0.0,
+    "max_preemption_time_s": 0.0,
+    "slowest_prefill_tokens": 1,
+    "slowest_decode_tokens": 4095,
+    "slowest_execution_time_s": 66.45007834672278,
+    "vidur_commit": "8383d2935bc62723a212090baa9f98ada206fc14",
+    "configuration": {
+      "model": "meta-llama/Llama-2-70b-hf",
+      "device": "h100",
+      "network_device": "h100_dgx",
+      "tensor_parallel_size": 8,
+      "pipeline_stages": 1,
+      "replicas": 1,
+      "scheduler": "sarathi",
+      "max_tokens": 4096
+    }
+  }
+}

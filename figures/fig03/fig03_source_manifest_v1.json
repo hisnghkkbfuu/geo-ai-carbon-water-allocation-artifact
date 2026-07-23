@@ -1,0 +1,114 @@
+{
+  "figure": "Fig. 3",
+  "derived_source": {
+    "path": "fig03_source_data_v1.csv",
+    "rows": 162,
+    "panel_filters": {
+      "a": "water_risk_mapping == portfolio_mean",
+      "b": "water_risk_mapping == portfolio_mean",
+      "c": "water_risk_mapping == portfolio_mean",
+      "d": "both mappings"
+    },
+    "sha256": "d9ba724c88e49a10f734e74c06ad38e33ecd0026f27691031397c87a54982843"
+  },
+  "upstream_inputs": [
+    {
+      "role": "WUE factorial accounting",
+      "rows": 162,
+      "sha256": "58f2f88174f0e1e179a85fae45f2fe84428a3a6c6d7eee14484495c6c7326aad"
+    },
+    {
+      "role": "regional WUE profile definitions",
+      "rows": 336,
+      "sha256": "051b188deebd1f4f7f35aa0adc7488999e9df4a7123c16f7dbceac094505dcca"
+    }
+  ],
+  "derivation": {
+    "profile_join": "regional WUE assignments pivoted by profile and joined to factorial accounting",
+    "portfolio_rank": "ascending portfolio-mean direct_water_change_pct; wue_profile is deterministic tie-break",
+    "exposure_share_pct": "100 × high-stress direct water / total direct water",
+    "exposure_change_pp": "carbon-first exposure share minus status-quo exposure share",
+    "unchanged_tolerance": 1e-09
+  },
+  "scientific_summary": {
+    "profile_count": 81,
+    "mapping_rows": {
+      "portfolio_mean": 81,
+      "conservative_max": 81
+    },
+    "portfolio_direct_water_counts": {
+      "increase": 40,
+      "decrease": 38,
+      "unchanged": 3
+    },
+    "portfolio_direct_water_range_pct": [
+      -24.600000001160677,
+      136.66666667311483
+    ],
+    "portfolio_direct_water_median_pct": 0.0,
+    "portfolio_high_stress_share_change_range_pp": [
+      0.6876548978708805,
+      17.607910101969242
+    ],
+    "portfolio_high_stress_share_change_median_pp": 3.704263378112153,
+    "portfolio_high_stress_positive_count": 81,
+    "east_wue_group_summary": [
+      {
+        "east_wue_l_per_kwh_it": 0.36,
+        "min": -2.220446049250313e-14,
+        "median": 65.98646042521352,
+        "max": 136.66666667311483,
+        "count": 27
+      },
+      {
+        "east_wue_l_per_kwh_it": 1.15,
+        "min": -20.60869565314627,
+        "median": 0.047935436485802,
+        "max": 22.17391304452445,
+        "count": 27
+      },
+      {
+        "east_wue_l_per_kwh_it": 2.0,
+        "min": -24.600000001160677,
+        "median": -12.72243712462221,
+        "max": 0.0,
+        "count": 27
+      }
+    ],
+    "portfolio_e0_share_range_pct": [
+      0.0,
+      0.0
+    ],
+    "portfolio_e1_share_range_pct": [
+      0.6876548978708805,
+      17.607910101969246
+    ],
+    "conservative_e0_share_range_pct": [
+      99.99999999999999,
+      100.0
+    ],
+    "conservative_e1_share_range_pct": [
+      99.99999999999999,
+      100.00000000000001
+    ],
+    "profile_rank_range": [
+      1,
+      81
+    ],
+    "mapping_change_max_abs_difference_pct": 0.0
+  },
+  "assertions": {
+    "no_missing_or_infinite_values": true,
+    "two_mappings_and_162_rows": true,
+    "complete_factorial_81_tuples": true,
+    "physical_change_invariant_to_screening_mapping": true,
+    "portfolio_counts_are_40_38_3": true,
+    "portfolio_exposure_change_positive_81_of_81": true,
+    "east_wue_levels_have_27_profiles_each": true,
+    "portfolio_e0_exposure_is_zero": true,
+    "portfolio_e1_exposure_is_positive": true,
+    "conservative_max_both_policies_are_100_pct": true,
+    "profile_ranks_are_one_to_81": true,
+    "stored_share_change_matches_recomputed": true
+  }
+}

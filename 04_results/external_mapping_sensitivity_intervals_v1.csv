@@ -1,0 +1,11 @@
+service_mapping,metric,estimate,block_interval_low_2_5pct,block_interval_high_97_5pct,share_positive,replicates,block_hours,seed
+triangulated_linear,e1_vs_e0_carbon_change_pct,-14.997175932199491,-15.88391404381096,-14.159746119987119,0.0,4000,24,20260720
+triangulated_linear,e1_vs_e0_high_stress_water_change_l,284.8294259531263,89.63634055071775,532.3918735985411,0.998,4000,24,20260720
+triangulated_linear,e2_vs_e0_carbon_change_pct,-14.914391470583821,-15.83448391248407,-14.069745570661699,0.0,4000,24,20260720
+triangulated_linear,e1_vs_e0_service_difference_accelerator_hours,0.0,0.0,0.0,0.0005,4000,24,20260720
+triangulated_linear,e2_vs_e0_service_difference_accelerator_hours,0.0,0.0,0.0,0.0005,4000,24,20260720
+local_simplex_upper,e1_vs_e0_carbon_change_pct,-15.04096621958151,-15.930077088006163,-14.207990272727976,0.0,4000,24,20260720
+local_simplex_upper,e1_vs_e0_high_stress_water_change_l,1858.51027941435,597.4434093313515,3436.438060957856,0.998,4000,24,20260720
+local_simplex_upper,e2_vs_e0_carbon_change_pct,-14.960562916848907,-15.891690786804828,-14.116752143890366,0.0,4000,24,20260720
+local_simplex_upper,e1_vs_e0_service_difference_accelerator_hours,0.0,-2.9103830456733704e-11,0.0,0.00075,4000,24,20260720
+local_simplex_upper,e2_vs_e0_service_difference_accelerator_hours,0.0,-2.9103830456733704e-11,0.0,0.00075,4000,24,20260720

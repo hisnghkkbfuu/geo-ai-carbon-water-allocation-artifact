@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: If you use this reproducibility archive, please cite the associated manuscript.
+title: Carbon-Water Trade-offs in Geo-distributed AI Inference Allocation under Water-Stress Screening
+version: 1.0.0
+date-released: 2026-07-23
+repository-code: https://github.com/hisnghkkbfuu/geo-ai-carbon-water-allocation-artifact
+authors:
+  - family-names: Zhang
+    given-names: Qian
+    affiliation: Department of Economics and Management, North China Electric Power University
+  - family-names: Sheng
+    given-names: Shengyu
+    affiliation: Department of Economics and Management, North China Electric Power University
+  - family-names: Liu
+    given-names: Tongna
+    affiliation: Department of Electronic and Communication Engineering, North China Electric Power University

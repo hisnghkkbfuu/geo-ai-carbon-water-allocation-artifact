@@ -1,0 +1,24 @@
+{
+  "status": "POST_CONFIRMATION_EXPLORATORY",
+  "raw_rows": 16803695,
+  "valid_rows": 16803695,
+  "excluded_invalid_rows": 0,
+  "mappings": {
+    "triangulated_linear": {
+      "total_service_accelerator_hours": 18916.75005664886,
+      "peak_hour_service_accelerator_hours": 325.8662379920491,
+      "hourly_rows": 168,
+      "nonzero_hours": 168
+    },
+    "local_simplex_upper": {
+      "total_service_accelerator_hours": 124679.43307284692,
+      "peak_hour_service_accelerator_hours": 2350.8073407402803,
+      "hourly_rows": 168,
+      "nonzero_hours": 168
+    }
+  },
+  "interpretation": {
+    "triangulated_linear": "piecewise-linear interpolation on the formal Vidur token grid convex hull",
+    "local_simplex_upper": "maximum execution time among the three vertices of the containing simplex"
+  }
+}

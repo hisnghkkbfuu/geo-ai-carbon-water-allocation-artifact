@@ -1,0 +1,73 @@
+{
+  "figure": "Fig. 1",
+  "derived_source": {
+    "path": "fig01_source_data_v1.csv",
+    "rows": 18,
+    "panel_counts": {
+      "a": 7,
+      "b": 6,
+      "c": 5
+    },
+    "sha256": "0a03024c579dcacf41bf0c9bd7ccbaa0201510a31acebe067742deab5b8743a8"
+  },
+  "upstream_inputs": [
+    {
+      "path": "01_claim_ledger_v1.md",
+      "sha256": "9ae299a7b3fb45651f8baa48ceb12eb9fea23cab57e4978af562f93902441962"
+    },
+    {
+      "path": "30_tables_1_3_english_evidence_v1.md",
+      "sha256": "3cb1e16dec29c1eb4bc0b866ffe9c4e43d6355a01b6bb892b099e99427056a39"
+    },
+    {
+      "path": "34_figures_1_4_contract_v1.md",
+      "sha256": "fd97d74d13e834858deaed73ede99405c4f9c4a994662f454e190cad8bb0876a"
+    },
+    {
+      "path": "35_figure_source_data_manifest_v1.csv",
+      "sha256": "11279b0db851563583d18afb4938d7cd6247690c3a84e7aac79686c2902b0cc7"
+    }
+  ],
+  "derivation": {
+    "status": "curated schematic source table",
+    "panel_a": "frozen evidence-layer and system-boundary nodes",
+    "panel_b": "frozen physical accounting chain and screening boundary",
+    "panel_c": "frozen lexicographic stages and E0/E1/E2 policy definitions"
+  },
+  "scientific_summary": {
+    "panels": [
+      "a",
+      "b",
+      "c"
+    ],
+    "panel_counts": {
+      "a": 7,
+      "b": 6,
+      "c": 5
+    },
+    "evidence_class_counts": {
+      "derived_quantity": 2,
+      "model_logic": 3,
+      "model_output": 2,
+      "observed_trace": 2,
+      "physical_accounting": 3,
+      "policy_definition": 3,
+      "scenario_input": 1,
+      "screening_output": 1,
+      "simulated_calibration": 1
+    },
+    "policy_encoding": {
+      "E0": "neutral grey circle",
+      "E1": "deep blue square",
+      "E2": "teal diamond"
+    }
+  },
+  "assertions": {
+    "source_has_18_rows": true,
+    "panel_counts_are_7_6_5": true,
+    "element_ids_are_unique": true,
+    "element_ids_match_frozen_contract": true,
+    "required_fields_are_nonempty": true,
+    "policy_rows_are_e0_e1_e2": true
+  }
+}

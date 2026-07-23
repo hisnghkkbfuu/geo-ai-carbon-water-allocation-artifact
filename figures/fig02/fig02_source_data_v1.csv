@@ -1,0 +1,11 @@
+panel,row_id,record_type,policy,policy_definition,carbon_change_pct,high_stress_direct_water_l,migration_share_pct,served_accelerator_hours,interval_low,interval_high,interval_unit,replicates,block_hours,seed,uncertainty_status,evidence_id
+a,a_e0,reference_operating_point,E0,strict no migration,0,0,0,211.947222212222,,,,,,,point estimate,T3C01;T3C02;T3C03
+a,a_e1,reference_operating_point,E1,30% migration; latency ≤ 20 ms,-13.2351212937179,2.42504467094104,30.0000000014155,211.947222212222,,,,,,,point estimate,T3C01;T3C02;T3C03
+a,a_e2,reference_operating_point,E2,E1 plus zero high-stress direct-water cap,-13.0833108080679,0,30.0000000014155,211.947222212222,,,,,,,point estimate,T3C01;T3C02;T3C03
+b,b_e1,carbon_direction_interval,E1,30% migration; latency ≤ 20 ms,-13.2351212937179,2.42504467094104,30.0000000014155,211.947222212222,-13.8480807306332,-12.4490298647726,% vs E0,4000,24,20260719,paired circular-block interval,T3C01;T3C03
+b,b_e2,carbon_point_only,E2,E1 plus zero high-stress direct-water cap,-13.0833108080679,0,30.0000000014155,211.947222212222,,,% vs E0,,,,point estimate; no primary block interval,T3C01;T3C03
+c,c_e1,exposure_direction_interval,E1,30% migration; latency ≤ 20 ms,-13.2351212937179,2.42504467094104,30.0000000014155,211.947222212222,0.546381511593042,4.76532745019613,L vs E0,4000,24,20260719,paired circular-block interval,T3C02;T3C03
+c,c_e2,exposure_fixed_zero,E2,E1 plus zero high-stress direct-water cap,-13.0833108080679,0,30.0000000014155,211.947222212222,,,L vs E0,,,,fixed at zero by construction,T3C02;T3C03
+d,d_e0,equal_service_migration_control,E0,strict no migration,0,0,0,211.947222212222,,,,,,,deterministic policy result,T3C01;T3C03
+d,d_e1,equal_service_migration_control,E1,30% migration; latency ≤ 20 ms,-13.2351212937179,2.42504467094104,30.0000000014155,211.947222212222,,,,,,,deterministic policy result,T3C01;T3C03
+d,d_e2,equal_service_migration_control,E2,E1 plus zero high-stress direct-water cap,-13.0833108080679,0,30.0000000014155,211.947222212222,,,,,,,deterministic policy result,T3C01;T3C03

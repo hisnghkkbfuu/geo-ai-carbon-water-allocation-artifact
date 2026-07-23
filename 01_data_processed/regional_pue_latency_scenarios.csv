@@ -1,0 +1,13 @@
+pue_scenario,region,pue,latency_from_east_ms,pue_status,latency_status
+hub_policy_compliant,east,1.25,2.5,policy-bounded scenario; not site measurement,distance-derived proxy from the frozen audit input; not operator measurement
+hub_policy_compliant,north,1.2,14.693,policy-bounded scenario; not site measurement,distance-derived proxy from the frozen audit input; not operator measurement
+hub_policy_compliant,northwest,1.2,18.956,policy-bounded scenario; not site measurement,distance-derived proxy from the frozen audit input; not operator measurement
+hub_policy_compliant,southwest,1.2,17.801,policy-bounded scenario; not site measurement,distance-derived proxy from the frozen audit input; not operator measurement
+uniform_new_build,east,1.25,2.5,policy-bounded scenario; not site measurement,distance-derived proxy from the frozen audit input; not operator measurement
+uniform_new_build,north,1.25,14.693,policy-bounded scenario; not site measurement,distance-derived proxy from the frozen audit input; not operator measurement
+uniform_new_build,northwest,1.25,18.956,policy-bounded scenario; not site measurement,distance-derived proxy from the frozen audit input; not operator measurement
+uniform_new_build,southwest,1.25,17.801,policy-bounded scenario; not site measurement,distance-derived proxy from the frozen audit input; not operator measurement
+legacy_stress,east,1.35,2.5,policy-bounded scenario; not site measurement,distance-derived proxy from the frozen audit input; not operator measurement
+legacy_stress,north,1.25,14.693,policy-bounded scenario; not site measurement,distance-derived proxy from the frozen audit input; not operator measurement
+legacy_stress,northwest,1.25,18.956,policy-bounded scenario; not site measurement,distance-derived proxy from the frozen audit input; not operator measurement
+legacy_stress,southwest,1.25,17.801,policy-bounded scenario; not site measurement,distance-derived proxy from the frozen audit input; not operator measurement

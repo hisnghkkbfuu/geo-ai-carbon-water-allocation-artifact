@@ -1,0 +1,16 @@
+{
+  "status": "ANALYZED",
+  "items": [
+    {"type": "Simpson's paradox", "judgement": "controlled", "evidence": "E1/E0 and E2/E0 carbon direction is negative on all 7 daily strata under all three mappings; high-stress water is a four-of-seven-day component, not claimed as daily universal."},
+    {"type": "Ecological fallacy", "judgement": "caution", "evidence": "Regional hub coefficients are mechanism scenarios and are not facility, operator, or user observations."},
+    {"type": "Berkson's paradox", "judgement": "caution", "evidence": "The Azure code-service trace is a public production trace subset and is not the full GenAI workload population."},
+    {"type": "Collider bias", "judgement": "not applicable", "evidence": "No regression conditioning or cross-sectional association model is used."},
+    {"type": "Base-rate neglect", "judgement": "checked", "evidence": "All 16,803,695 rows, zero invalid rows, token quantiles, timestamp span, and mapping coverage are reported."},
+    {"type": "Regression to the mean", "judgement": "not applicable", "evidence": "No extreme-value selection followed by pre/post measurement is used."},
+    {"type": "Survivorship bias", "judgement": "caution", "evidence": "Azure trace fields do not provide request success/failure labels; it is treated as observed trace demand, not universal completed service."},
+    {"type": "Look-elsewhere effect", "judgement": "controlled", "evidence": "E0/E1/E2 endpoints, bootstrap seed, block length, and thresholds were frozen before complete Azure trace inspection; interpolation analyses are labeled exploratory."},
+    {"type": "Garden of forking paths", "judgement": "caution", "evidence": "This is a reconstruction after the old v34 failure and is not a preregistered confirmatory study."},
+    {"type": "Correlation versus causation", "judgement": "high wording threshold", "evidence": "Claims are limited to model-generated mechanism directions; no policy causal effect or Azure operator outcome is claimed."},
+    {"type": "Reverse causality", "judgement": "low risk", "evidence": "The Azure timestamp sequence supplies demand ordering only; it is not used to infer environmental causal direction."}
+  ]
+}

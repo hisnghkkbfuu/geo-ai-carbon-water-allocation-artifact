@@ -1,0 +1,19 @@
+panel,element_id,evidence_class,label,detail,boundary,parent_ids
+a,a_gen,observed_trace,GenTD26 primary trace,"26,392 eligible requests | 554 h",Public request record,
+a,a_azure,observed_trace,Azure directional-audit trace,"16.8M requests | 168 h | token/timing only",Independent demand trace,
+a,a_service,derived_quantity,Service construction,"sum(execution time) / 3600 | single-accelerator equivalent",Same-hour service quantity,a_gen;a_azure;a_vidur
+a,a_vidur,simulated_calibration,Vidur calibration,"Llama-2-70B | H100 TP8 | execution time x 8 / 3600",Calibrated execution-time proxy,
+a,a_scenarios,scenario_input,Regional scenario layers,"carbon | PUE | capacity | latency | WUE | water stress",Explicit scenario inputs,
+a,a_alloc,model_logic,Lexicographic allocation,"same-hour | service first | carbon second | E0/E1/E2",Mechanism model,a_service;a_scenarios
+a,a_outputs,model_output,Model outputs,"served service | carbon | direct water | screened exposure",Directional mechanism claims,a_alloc
+b,b_service,derived_quantity,Assigned service,accelerator-h,Same-hour allocation,
+b,b_it,physical_accounting,IT electricity,kWh-IT,Physical quantity,b_service
+b,b_facility,physical_accounting,Facility electricity,kWh-facility,Carbon branch only,b_it
+b,b_carbon,model_output,Carbon,kg CO2e,Model-accounted output,b_facility
+b,b_water,physical_accounting,Direct water,L,Physical quantity,b_it
+b,b_exposure,screening_output,Screened exposure,L by stress category,Location screen only,b_water
+c,c_stage1,model_logic,Stage 1,Minimize unserved service,Lexicographic objective,
+c,c_stage2,model_logic,Stage 2,"Preserve Stage 1 optimum; minimize carbon",Lexicographic objective,c_stage1
+c,c_e0,policy_definition,E0,Strict no migration,Reference policy,c_stage2
+c,c_e1,policy_definition,E1,"30% migration | latency ≤ 20 ms",Carbon-first policy,c_stage2
+c,c_e2,policy_definition,E2,"E1 + zero high-stress direct-water cap",Zero-exposure scenario,c_stage2
