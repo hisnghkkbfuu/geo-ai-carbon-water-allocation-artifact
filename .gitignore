@@ -1,5 +1,6 @@
 __pycache__/
 *.py[cod]
 .pytest_cache/
+temporary_ema_figure_contact_sheet*.png
 .DS_Store
 Thumbs.db

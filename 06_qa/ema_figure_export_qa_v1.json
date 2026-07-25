@@ -1,0 +1,175 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "fig01_environmental_decision_model_v1_all_exports_present",
+      "passed": true,
+      "detail": "svg,pdf,tiff,png"
+    },
+    {
+      "check": "fig01_environmental_decision_model_v1_svg_has_editable_text",
+      "passed": true,
+      "detail": "text_nodes=36"
+    },
+    {
+      "check": "fig01_environmental_decision_model_v1_pdf_has_no_type3_font",
+      "passed": true,
+      "detail": "font_subtypes=['/Type0']"
+    },
+    {
+      "check": "fig01_environmental_decision_model_v1_tiff_lzw",
+      "passed": true,
+      "detail": "compression_tag=5"
+    },
+    {
+      "check": "fig01_environmental_decision_model_v1_tiff_600_dpi",
+      "passed": true,
+      "detail": "dpi=(600.0, 600.0)"
+    },
+    {
+      "check": "fig01_environmental_decision_model_v1_tiff_nonblank",
+      "passed": true,
+      "detail": "pixels=(3977, 2470)"
+    },
+    {
+      "check": "fig01_environmental_decision_model_v1_png_300_dpi",
+      "passed": true,
+      "detail": "dpi=(299.9994, 299.9994)"
+    },
+    {
+      "check": "fig01_environmental_decision_model_v1_png_nonblank",
+      "passed": true,
+      "detail": "pixels=(1988, 1235)"
+    },
+    {
+      "check": "fig02_reference_screened_water_frontier_v1_all_exports_present",
+      "passed": true,
+      "detail": "svg,pdf,tiff,png"
+    },
+    {
+      "check": "fig02_reference_screened_water_frontier_v1_svg_has_editable_text",
+      "passed": true,
+      "detail": "text_nodes=72"
+    },
+    {
+      "check": "fig02_reference_screened_water_frontier_v1_pdf_has_no_type3_font",
+      "passed": true,
+      "detail": "font_subtypes=['/Type0']"
+    },
+    {
+      "check": "fig02_reference_screened_water_frontier_v1_tiff_lzw",
+      "passed": true,
+      "detail": "compression_tag=5"
+    },
+    {
+      "check": "fig02_reference_screened_water_frontier_v1_tiff_600_dpi",
+      "passed": true,
+      "detail": "dpi=(600.0, 600.0)"
+    },
+    {
+      "check": "fig02_reference_screened_water_frontier_v1_tiff_nonblank",
+      "passed": true,
+      "detail": "pixels=(3772, 3132)"
+    },
+    {
+      "check": "fig02_reference_screened_water_frontier_v1_png_300_dpi",
+      "passed": true,
+      "detail": "dpi=(299.9994, 299.9994)"
+    },
+    {
+      "check": "fig02_reference_screened_water_frontier_v1_png_nonblank",
+      "passed": true,
+      "detail": "pixels=(1886, 1565)"
+    },
+    {
+      "check": "fig03_scenario_envelope_v1_all_exports_present",
+      "passed": true,
+      "detail": "svg,pdf,tiff,png"
+    },
+    {
+      "check": "fig03_scenario_envelope_v1_svg_has_editable_text",
+      "passed": true,
+      "detail": "text_nodes=52"
+    },
+    {
+      "check": "fig03_scenario_envelope_v1_pdf_has_no_type3_font",
+      "passed": true,
+      "detail": "font_subtypes=['/Type0']"
+    },
+    {
+      "check": "fig03_scenario_envelope_v1_tiff_lzw",
+      "passed": true,
+      "detail": "compression_tag=5"
+    },
+    {
+      "check": "fig03_scenario_envelope_v1_tiff_600_dpi",
+      "passed": true,
+      "detail": "dpi=(600.0, 600.0)"
+    },
+    {
+      "check": "fig03_scenario_envelope_v1_tiff_nonblank",
+      "passed": true,
+      "detail": "pixels=(4212, 2820)"
+    },
+    {
+      "check": "fig03_scenario_envelope_v1_png_300_dpi",
+      "passed": true,
+      "detail": "dpi=(299.9994, 299.9994)"
+    },
+    {
+      "check": "fig03_scenario_envelope_v1_png_nonblank",
+      "passed": true,
+      "detail": "pixels=(2099, 1410)"
+    },
+    {
+      "check": "fig04_wue_and_energy_boundaries_v1_all_exports_present",
+      "passed": true,
+      "detail": "svg,pdf,tiff,png"
+    },
+    {
+      "check": "fig04_wue_and_energy_boundaries_v1_svg_has_editable_text",
+      "passed": true,
+      "detail": "text_nodes=80"
+    },
+    {
+      "check": "fig04_wue_and_energy_boundaries_v1_pdf_has_no_type3_font",
+      "passed": true,
+      "detail": "font_subtypes=['/Type0']"
+    },
+    {
+      "check": "fig04_wue_and_energy_boundaries_v1_tiff_lzw",
+      "passed": true,
+      "detail": "compression_tag=5"
+    },
+    {
+      "check": "fig04_wue_and_energy_boundaries_v1_tiff_600_dpi",
+      "passed": true,
+      "detail": "dpi=(600.0, 600.0)"
+    },
+    {
+      "check": "fig04_wue_and_energy_boundaries_v1_tiff_nonblank",
+      "passed": true,
+      "detail": "pixels=(3788, 3145)"
+    },
+    {
+      "check": "fig04_wue_and_energy_boundaries_v1_png_300_dpi",
+      "passed": true,
+      "detail": "dpi=(299.9994, 299.9994)"
+    },
+    {
+      "check": "fig04_wue_and_energy_boundaries_v1_png_nonblank",
+      "passed": true,
+      "detail": "pixels=(1877, 1572)"
+    },
+    {
+      "check": "temporary_contact_sheets_created",
+      "passed": true,
+      "detail": "color and grayscale"
+    }
+  ],
+  "temporary_contact_sheets": [
+    "temporary_ema_figure_contact_sheet.png",
+    "temporary_ema_figure_contact_sheet_grayscale.png"
+  ],
+  "temporary_contact_sheets_retained": false
+}

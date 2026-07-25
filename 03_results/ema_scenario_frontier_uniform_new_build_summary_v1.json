@@ -1,0 +1,7 @@
+{
+  "expected_points": 405,
+  "maximum_feasibility_residual": 1.000000082740371e-08,
+  "points": 405,
+  "pue_scenario": "uniform_new_build",
+  "status": "ANALYZED"
+}

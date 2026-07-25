@@ -1,0 +1,9 @@
+{
+  "all_service_matched": true,
+  "all_solver_optimal": true,
+  "expected_points": 1215,
+  "maximum_feasibility_residual": 1.0000000827403712e-08,
+  "points": 1215,
+  "scenario_cells": 243,
+  "status": "ANALYZED"
+}

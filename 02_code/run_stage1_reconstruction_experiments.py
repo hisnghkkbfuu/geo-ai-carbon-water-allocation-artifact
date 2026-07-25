@@ -19,18 +19,6 @@ def percent_change(value: float, baseline: float) -> float:
     return 100.0 * (value / baseline - 1.0) if baseline else np.nan
 
 
-def public_result_schema(frame: pd.DataFrame) -> pd.DataFrame:
-    """Keep frozen result tables stable while retaining provenance internally."""
-    provenance_columns = [
-        "carbon_filename",
-        "capacity_filename",
-        "energy_filename",
-        "timestamp_column",
-        "energy_workload_class",
-    ]
-    return frame.drop(columns=provenance_columns, errors="ignore")
-
-
 def add_contrasts(metrics: pd.DataFrame, baseline_policy: str) -> pd.DataFrame:
     result = metrics.copy()
     base = result[result["policy"].eq(baseline_policy)].iloc[0]
@@ -495,14 +483,14 @@ def main() -> None:
     out.mkdir(parents=True, exist_ok=True)
 
     metrics, frontier, main_payload = main_experiment(args.root)
-    public_result_schema(metrics).to_csv(out / "main_policy_metrics_v1.csv", index=False)
-    public_result_schema(frontier).to_csv(out / "high_stress_water_pareto_v1.csv", index=False)
+    metrics.to_csv(out / "main_policy_metrics_v1.csv", index=False)
+    frontier.to_csv(out / "high_stress_water_pareto_v1.csv", index=False)
     main_payload["dispatch"].to_csv(out / "main_policy_dispatch_v1.csv", index=False)
     intervals = paired_block_intervals(main_payload["dispatch"])
     intervals.to_csv(out / "main_policy_paired_block_intervals_v1.csv", index=False)
 
     sensitivity = sensitivity_matrix(args.root)
-    public_result_schema(sensitivity).to_csv(out / "carbon_service_sensitivity_matrix_v1.csv", index=False)
+    sensitivity.to_csv(out / "carbon_service_sensitivity_matrix_v1.csv", index=False)
     wue = wue_factorial_accounting(args.root, main_payload["dispatch"])
     wue.to_csv(out / "wue_factorial_accounting_v1.csv", index=False)
     reversal = reversal_test(args.root)

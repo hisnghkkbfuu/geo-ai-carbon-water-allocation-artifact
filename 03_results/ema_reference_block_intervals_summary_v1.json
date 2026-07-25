@@ -1,0 +1,9 @@
+{
+  "status": "ANALYZED",
+  "points": 21,
+  "replicates": 4000,
+  "block_hours": 24,
+  "seed": 20260726,
+  "all_carbon_interval_upper_bounds_nonpositive": true,
+  "interpretation": "conditional temporal-composition stability only"
+}

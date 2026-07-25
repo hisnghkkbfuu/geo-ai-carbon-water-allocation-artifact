@@ -1,12 +1,6 @@
 # Archive status
 
-This is the independent v1.0.0 package for the second SCI manuscript. It contains
-portable code, author-created derived inputs/results, figure source data, frozen
-exports, and deterministic tests. It does not redistribute third-party raw traces.
-
-- GitHub: https://github.com/hisnghkkbfuu/geo-ai-carbon-water-allocation-artifact
-- GitHub release: https://github.com/hisnghkkbfuu/geo-ai-carbon-water-allocation-artifact/releases/tag/v1.0.0
-- Zenodo version DOI: pending publication; no DOI has been asserted.
-- Code/documentation: MIT; author-created derived tables and figure source CSVs: CC BY 4.0.
-
-No other manuscript's repository or DOI is associated with this package.
+This directory is the cleaned `v2.0.0` release package for the second-paper repository. It is
+independent of the first-paper repository and DOI. The GitHub release is https://github.com/hisnghkkbfuu/geo-ai-carbon-water-allocation-artifact/releases/tag/v2.0.0. The matching
+Zenodo version is created under the second-paper concept DOI
+https://doi.org/10.5281/zenodo.21512280.

@@ -1,32 +1,26 @@
 cff-version: 1.2.0
-message: If you use this reproducibility artifact, please cite the artifact and the associated manuscript.
-title: 'Carbon-Water Trade-offs in Geo-distributed AI Inference Allocation under Water-Stress Screening: Reproducibility Artifact'
-version: 1.0.0
-date-released: 2026-07-23
-repository-code: https://github.com/hisnghkkbfuu/geo-ai-carbon-water-allocation-artifact
-license: MIT
+message: "If you use this artifact, cite the released software version and the associated paper."
+title: "Environmental screening of carbon-water trade-offs in geo-distributed AI workload allocation: reproducibility artifact"
 type: software
-abstract: >-
-  Independent reproducibility artifact for a scenario-bounded, trace-driven
-  lexicographic allocation analysis. The package contains portable code,
-  author-created derived inputs and results, figure source data, frozen exports,
-  and deterministic tests. It does not redistribute third-party raw request
-  traces or claim measured operator outcomes.
-keywords:
-  - AI inference
-  - geo-distributed data centers
-  - carbon-aware scheduling
-  - workload migration
-  - direct water use
-  - water stress
-  - lexicographic optimization
+version: "v2.0.0"
+date-released: 2026-07-25
 authors:
   - family-names: Zhang
     given-names: Qian
-    affiliation: Department of Economics and Management, North China Electric Power University
+    affiliation: North China Electric Power University
   - family-names: Sheng
     given-names: Shengyu
-    affiliation: Department of Economics and Management, North China Electric Power University
+    affiliation: North China Electric Power University
   - family-names: Liu
     given-names: Tongna
-    affiliation: Department of Electronic and Communication Engineering, North China Electric Power University
+    affiliation: North China Electric Power University
+repository-code: "https://github.com/hisnghkkbfuu/geo-ai-carbon-water-allocation-artifact"
+url: "https://github.com/hisnghkkbfuu/geo-ai-carbon-water-allocation-artifact/releases/tag/v2.0.0"
+license: MIT
+keywords:
+  - environmental decision support
+  - epsilon constraint
+  - carbon-aware allocation
+  - direct water use
+  - water stress
+  - geo-distributed computing

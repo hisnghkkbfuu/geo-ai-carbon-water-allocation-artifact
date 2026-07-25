@@ -1,7 +1,7 @@
 {
-  "title": "Carbon-Water Trade-offs in Geo-distributed AI Inference Allocation under Water-Stress Screening: Reproducibility Artifact",
-  "version": "1.0.0",
-  "description": "Independent v1.0.0 reproducibility artifact for a scenario-bounded, trace-driven lexicographic AI-inference allocation analysis. It contains portable code, author-created derived inputs and results, figure source data, frozen exports, and deterministic tests. It does not redistribute third-party raw request traces, operator telemetry, or hydrologic-impact estimates, and it does not support measured operational or causal policy claims. Code and documentation are MIT licensed; author-created derived tables and figure source CSVs are CC BY 4.0; third-party source terms remain controlling.",
+  "title": "Environmental screening of carbon-water trade-offs in geo-distributed AI workload allocation: reproducibility artifact",
+  "upload_type": "software",
+  "description": "Version 2.0.0 reproducibility artifact for a trace-driven environmental decision model of carbon-water trade-offs in geo-distributed AI workload allocation. The archive contains portable Python code, redistributable derived inputs, frozen result tables, figure source data, publication exports, tests, and SHA-256 manifests. It supports only scenario-specific directional mechanism claims. It does not support facility-footprint, hydrologic-impact, causal, or production-scheduler claims. Third-party raw request traces are not redistributed.",
   "creators": [
     {
       "name": "Zhang, Qian",
@@ -16,19 +16,18 @@
       "affiliation": "North China Electric Power University"
     }
   ],
+  "version": "v2.0.0",
+  "publication_date": "2026-07-25",
+  "access_right": "open",
+  "license": "MIT",
   "keywords": [
-    "AI inference",
-    "geo-distributed data centers",
-    "carbon-aware scheduling",
-    "workload migration",
+    "environmental decision support",
+    "epsilon constraint",
+    "carbon-aware allocation",
     "direct water use",
     "water stress",
-    "lexicographic optimization"
+    "geo-distributed computing"
   ],
-  "upload_type": "software",
-  "access_right": "open",
-  "license": "mit",
-  "language": "eng",
   "related_identifiers": [
     {
       "identifier": "https://github.com/hisnghkkbfuu/geo-ai-carbon-water-allocation-artifact",
@@ -36,9 +35,10 @@
       "scheme": "url"
     },
     {
-      "identifier": "https://github.com/hisnghkkbfuu/geo-ai-carbon-water-allocation-artifact/releases/tag/v1.0.0",
+      "identifier": "https://github.com/hisnghkkbfuu/geo-ai-carbon-water-allocation-artifact/releases/tag/v2.0.0",
       "relation": "isIdenticalTo",
       "scheme": "url"
     }
-  ]
+  ],
+  "notes": "Author-written code and documentation are MIT licensed. Author-created derived tables and figure-source data are CC BY 4.0. Third-party raw request traces are not redistributed."
 }

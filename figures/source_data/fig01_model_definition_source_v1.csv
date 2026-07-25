@@ -1,0 +1,7 @@
+component,role,evidence_class
+Demand,Trace-derived hourly service proxy,Observed trace field
+Regional inputs,"Carbon, PUE, WUE, capacity, latency, water-stress scenario layers",Proxy or scenario
+Stage 1,Minimize unserved service,Optimization definition
+Stage 2,Minimize carbon at fixed maximum feasible service,Optimization definition
+Screen,Bound physical direct water in High or Extremely high water-stress regions,Scenario constraint
+Boundary,"No facility measurement, causal estimate, hydrologic damage model, or cross-hour queueing",Interpretation limit

@@ -2,8 +2,14 @@ MIT License
 
 Copyright (c) 2026 Qian Zhang, Shengyu Sheng, and Tongna Liu
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files to use, copy, modify, merge, publish, distribute, sublicense, and sell copies of the Software, subject to inclusion of this notice.
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and
+associated documentation files to use, copy, modify, merge, publish, distribute, sublicense, and
+sell copies of the Software, subject to inclusion of this notice.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT
+NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT.
 
-This license applies to author-written code and documentation only. Author-created derived tables and figure-source data are covered separately by `DATA_LICENSE.md`. Third-party source materials remain subject to the terms documented in `docs/DATA_SOURCES.md`.
+This license applies to author-written code and documentation only. Author-created derived tables
+and figure-source data are covered separately by DATA_LICENSE.md. Third-party source materials
+remain subject to the terms documented in docs/DATA_SOURCES.md.

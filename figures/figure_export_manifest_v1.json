@@ -1,0 +1,198 @@
+[
+  {
+    "figure": "fig01_environmental_decision_model_v1",
+    "format": "svg",
+    "file": "fig01_environmental_decision_model_v1.svg",
+    "bytes": 19663,
+    "sha256": "f6f653b81f7664721e4ea8ac1d1e1b1528224c4af1bb1730bab853d6afeb95b1",
+    "source_files": [
+      "fig01_model_definition_source_v1.csv"
+    ]
+  },
+  {
+    "figure": "fig01_environmental_decision_model_v1",
+    "format": "pdf",
+    "file": "fig01_environmental_decision_model_v1.pdf",
+    "bytes": 49587,
+    "sha256": "4b9a5700eb4abd27c3cd77c7727af8957d4e07957de45065c1e16e2978b76459",
+    "source_files": [
+      "fig01_model_definition_source_v1.csv"
+    ]
+  },
+  {
+    "figure": "fig01_environmental_decision_model_v1",
+    "format": "tiff",
+    "file": "fig01_environmental_decision_model_v1.tiff",
+    "bytes": 1060772,
+    "sha256": "1e59d4c6abe3a322f60fb31a5839e1dee31aefe850c3a7f7f25345212774c076",
+    "source_files": [
+      "fig01_model_definition_source_v1.csv"
+    ]
+  },
+  {
+    "figure": "fig01_environmental_decision_model_v1",
+    "format": "png",
+    "file": "fig01_environmental_decision_model_v1.png",
+    "bytes": 168926,
+    "sha256": "81693eeebd13861bed1099f737f923d6bb02ac277547b86b02fbd97952348f61",
+    "source_files": [
+      "fig01_model_definition_source_v1.csv"
+    ]
+  },
+  {
+    "figure": "fig02_reference_screened_water_frontier_v1",
+    "format": "svg",
+    "file": "fig02_reference_screened_water_frontier_v1.svg",
+    "bytes": 54584,
+    "sha256": "f232771612437c134f891d2ac8ce31a4dfa333bd36d73d9a435265fa1ad2787d",
+    "source_files": [
+      "fig02_reference_frontier_source_v1.csv",
+      "fig02_reference_segment_source_v1.csv",
+      "fig02_reference_block_intervals_source_v1.csv",
+      "fig02_selected_allocations_source_v1.csv"
+    ]
+  },
+  {
+    "figure": "fig02_reference_screened_water_frontier_v1",
+    "format": "pdf",
+    "file": "fig02_reference_screened_water_frontier_v1.pdf",
+    "bytes": 54692,
+    "sha256": "2ec289e18bc21c14f74972cfb58e78931209d3e012a6ece82c9af4b6d1d6ca8f",
+    "source_files": [
+      "fig02_reference_frontier_source_v1.csv",
+      "fig02_reference_segment_source_v1.csv",
+      "fig02_reference_block_intervals_source_v1.csv",
+      "fig02_selected_allocations_source_v1.csv"
+    ]
+  },
+  {
+    "figure": "fig02_reference_screened_water_frontier_v1",
+    "format": "tiff",
+    "file": "fig02_reference_screened_water_frontier_v1.tiff",
+    "bytes": 1031820,
+    "sha256": "b207232291f09fb8d66068659291afce93797f1a0ba00ab61e693ed5d473e084",
+    "source_files": [
+      "fig02_reference_frontier_source_v1.csv",
+      "fig02_reference_segment_source_v1.csv",
+      "fig02_reference_block_intervals_source_v1.csv",
+      "fig02_selected_allocations_source_v1.csv"
+    ]
+  },
+  {
+    "figure": "fig02_reference_screened_water_frontier_v1",
+    "format": "png",
+    "file": "fig02_reference_screened_water_frontier_v1.png",
+    "bytes": 216624,
+    "sha256": "a1b34c9523fb62aa5ca81fb5878b7d56801145377df03217716ae5813c03e6e7",
+    "source_files": [
+      "fig02_reference_frontier_source_v1.csv",
+      "fig02_reference_segment_source_v1.csv",
+      "fig02_reference_block_intervals_source_v1.csv",
+      "fig02_selected_allocations_source_v1.csv"
+    ]
+  },
+  {
+    "figure": "fig03_scenario_envelope_v1",
+    "format": "svg",
+    "file": "fig03_scenario_envelope_v1.svg",
+    "bytes": 93880,
+    "sha256": "5538a0b869a60f7a55c706603efd6d5e0134cb436503189fd7ec2bd3cffd535b",
+    "source_files": [
+      "fig03_scenario_cap_summary_source_v1.csv",
+      "fig03_zero_cap_scenarios_source_v1.csv",
+      "fig03_scenario_segment_source_v1.csv",
+      "fig03_solver_qa_source_v1.csv"
+    ]
+  },
+  {
+    "figure": "fig03_scenario_envelope_v1",
+    "format": "pdf",
+    "file": "fig03_scenario_envelope_v1.pdf",
+    "bytes": 65859,
+    "sha256": "442fba8228f60f5275ddd0ef01449a979ebf02c5b2d0b6b8fb246dc0a98fe9bf",
+    "source_files": [
+      "fig03_scenario_cap_summary_source_v1.csv",
+      "fig03_zero_cap_scenarios_source_v1.csv",
+      "fig03_scenario_segment_source_v1.csv",
+      "fig03_solver_qa_source_v1.csv"
+    ]
+  },
+  {
+    "figure": "fig03_scenario_envelope_v1",
+    "format": "tiff",
+    "file": "fig03_scenario_envelope_v1.tiff",
+    "bytes": 1107786,
+    "sha256": "b04d2d4c4445f85ad2070a0680ad8578dfee5886f3afaa70b6e86079b27e83ac",
+    "source_files": [
+      "fig03_scenario_cap_summary_source_v1.csv",
+      "fig03_zero_cap_scenarios_source_v1.csv",
+      "fig03_scenario_segment_source_v1.csv",
+      "fig03_solver_qa_source_v1.csv"
+    ]
+  },
+  {
+    "figure": "fig03_scenario_envelope_v1",
+    "format": "png",
+    "file": "fig03_scenario_envelope_v1.png",
+    "bytes": 225093,
+    "sha256": "52242f56bf1e9b37e398bd798311d7a7348dae2420022eb57eae95905202fd77",
+    "source_files": [
+      "fig03_scenario_cap_summary_source_v1.csv",
+      "fig03_zero_cap_scenarios_source_v1.csv",
+      "fig03_scenario_segment_source_v1.csv",
+      "fig03_solver_qa_source_v1.csv"
+    ]
+  },
+  {
+    "figure": "fig04_wue_and_energy_boundaries_v1",
+    "format": "svg",
+    "file": "fig04_wue_and_energy_boundaries_v1.svg",
+    "bytes": 69933,
+    "sha256": "3c85cd7a7ed008475bc8f663f8d72bdc3456a91252642403194c080c4f5982a7",
+    "source_files": [
+      "fig04_spatial_wue_frontier_source_v1.csv",
+      "fig04_spatial_wue_cap_summary_source_v1.csv",
+      "fig04_wue_profile_attributes_source_v1.csv",
+      "fig04_energy_scaling_source_v1.csv"
+    ]
+  },
+  {
+    "figure": "fig04_wue_and_energy_boundaries_v1",
+    "format": "pdf",
+    "file": "fig04_wue_and_energy_boundaries_v1.pdf",
+    "bytes": 61716,
+    "sha256": "6ab75a85016930ec0eeca6dd0d280ff9ec5478353bd4151ae0451f6517f6b1dd",
+    "source_files": [
+      "fig04_spatial_wue_frontier_source_v1.csv",
+      "fig04_spatial_wue_cap_summary_source_v1.csv",
+      "fig04_wue_profile_attributes_source_v1.csv",
+      "fig04_energy_scaling_source_v1.csv"
+    ]
+  },
+  {
+    "figure": "fig04_wue_and_energy_boundaries_v1",
+    "format": "tiff",
+    "file": "fig04_wue_and_energy_boundaries_v1.tiff",
+    "bytes": 966102,
+    "sha256": "22582d2a4e43ab22b510416b2f4c0fe4c161c8a8893238ddc3f87d02e09902cc",
+    "source_files": [
+      "fig04_spatial_wue_frontier_source_v1.csv",
+      "fig04_spatial_wue_cap_summary_source_v1.csv",
+      "fig04_wue_profile_attributes_source_v1.csv",
+      "fig04_energy_scaling_source_v1.csv"
+    ]
+  },
+  {
+    "figure": "fig04_wue_and_energy_boundaries_v1",
+    "format": "png",
+    "file": "fig04_wue_and_energy_boundaries_v1.png",
+    "bytes": 239167,
+    "sha256": "e2e92289d50a7c6c206ee28bb80dfa08c12f3907b5d9295fd3e514d774857077",
+    "source_files": [
+      "fig04_spatial_wue_frontier_source_v1.csv",
+      "fig04_spatial_wue_cap_summary_source_v1.csv",
+      "fig04_wue_profile_attributes_source_v1.csv",
+      "fig04_energy_scaling_source_v1.csv"
+    ]
+  }
+]

@@ -1,0 +1,17 @@
+check,passed,detail
+copied_processed_inputs_match_frozen_source,True,"source_files=22, target_files=22, mismatches=[]"
+reference_has_prespecified_21_point_grid,True,"points=21, fractions=(np.float64(0.0), np.float64(0.05), np.float64(0.1), np.float64(0.15), np.float64(0.2), np.float64(0.25), np.float64(0.3), np.float64(0.35), np.float64(0.4), np.float64(0.45), np.float64(0.5), np.float64(0.55), np.float64(0.6), np.float64(0.65), np.float64(0.7), np.float64(0.75), np.float64(0.8), np.float64(0.85), np.float64(0.9), np.float64(0.95), np.float64(1.0))"
+reference_feasibility_residual,True,maximum_residual=1e-08
+reference_solver_optimal,True,"stage_one=True, stage_two=True"
+reference_frontier_monotone,True,segments=20
+reference_endpoints_match_frozen_five_point_results,True,"matched_points=5, maximum_absolute_difference=3.08880032662e-09"
+scenario_frontier_complete,True,"points=1215, cells=243, expected_points=1215"
+scenario_uses_all_three_pue_blocks,True,"pue=['hub_policy_compliant', 'legacy_stress', 'uniform_new_build']"
+scenario_feasibility_residual,True,maximum_residual=1.00000008274e-08
+scenario_solver_optimal,True,"stage_one=True, stage_two=True"
+scenario_carbon_not_above_status_quo,True,maximum_change_pct=-5.01746422188e-09
+scenario_frontier_monotone,True,segments=972
+spatial_wue_frontier_complete,True,"points=405, profiles=81"
+spatial_wue_frontier_feasible_and_optimal,True,maximum_residual=1e-08
+energy_scaling_frontier_complete,True,"points=15, levels=['central', 'high', 'low']"
+energy_scaling_allocation_and_relative_results_invariant,True,maximum_absolute_difference=2.13162820728e-14

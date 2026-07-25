@@ -358,6 +358,18 @@ def solve_lexicographic(
             fixed_total_unserved_accelerator_hours
         ),
     }
+    solver_metadata = {
+        "stage_one_success": bool(stage_one.success),
+        "stage_one_status": int(stage_one.status),
+        "stage_one_message": str(stage_one.message),
+        "stage_one_objective": float(stage_one.fun),
+        "stage_one_iterations": int(stage_one.nit),
+        "stage_two_success": bool(stage_two.success),
+        "stage_two_status": int(stage_two.status),
+        "stage_two_message": str(stage_two.message),
+        "stage_two_objective": float(stage_two.fun),
+        "stage_two_iterations": int(stage_two.nit),
+    }
     return {
         "dispatch": dispatch,
         "unserved": pd.DataFrame(
@@ -368,6 +380,7 @@ def solve_lexicographic(
             }
         ),
         "metrics": metrics,
+        "solver_metadata": solver_metadata,
         "raw_solution": stage_two.x,
     }
 

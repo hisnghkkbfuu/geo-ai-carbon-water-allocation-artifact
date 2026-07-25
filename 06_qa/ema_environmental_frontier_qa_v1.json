@@ -1,0 +1,85 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "copied_processed_inputs_match_frozen_source",
+      "passed": true,
+      "detail": "source_files=22, target_files=22, mismatches=[]"
+    },
+    {
+      "check": "reference_has_prespecified_21_point_grid",
+      "passed": true,
+      "detail": "points=21, fractions=(np.float64(0.0), np.float64(0.05), np.float64(0.1), np.float64(0.15), np.float64(0.2), np.float64(0.25), np.float64(0.3), np.float64(0.35), np.float64(0.4), np.float64(0.45), np.float64(0.5), np.float64(0.55), np.float64(0.6), np.float64(0.65), np.float64(0.7), np.float64(0.75), np.float64(0.8), np.float64(0.85), np.float64(0.9), np.float64(0.95), np.float64(1.0))"
+    },
+    {
+      "check": "reference_feasibility_residual",
+      "passed": true,
+      "detail": "maximum_residual=1e-08"
+    },
+    {
+      "check": "reference_solver_optimal",
+      "passed": true,
+      "detail": "stage_one=True, stage_two=True"
+    },
+    {
+      "check": "reference_frontier_monotone",
+      "passed": true,
+      "detail": "segments=20"
+    },
+    {
+      "check": "reference_endpoints_match_frozen_five_point_results",
+      "passed": true,
+      "detail": "matched_points=5, maximum_absolute_difference=3.08880032662e-09"
+    },
+    {
+      "check": "scenario_frontier_complete",
+      "passed": true,
+      "detail": "points=1215, cells=243, expected_points=1215"
+    },
+    {
+      "check": "scenario_uses_all_three_pue_blocks",
+      "passed": true,
+      "detail": "pue=['hub_policy_compliant', 'legacy_stress', 'uniform_new_build']"
+    },
+    {
+      "check": "scenario_feasibility_residual",
+      "passed": true,
+      "detail": "maximum_residual=1.00000008274e-08"
+    },
+    {
+      "check": "scenario_solver_optimal",
+      "passed": true,
+      "detail": "stage_one=True, stage_two=True"
+    },
+    {
+      "check": "scenario_carbon_not_above_status_quo",
+      "passed": true,
+      "detail": "maximum_change_pct=-5.01746422188e-09"
+    },
+    {
+      "check": "scenario_frontier_monotone",
+      "passed": true,
+      "detail": "segments=972"
+    },
+    {
+      "check": "spatial_wue_frontier_complete",
+      "passed": true,
+      "detail": "points=405, profiles=81"
+    },
+    {
+      "check": "spatial_wue_frontier_feasible_and_optimal",
+      "passed": true,
+      "detail": "maximum_residual=1e-08"
+    },
+    {
+      "check": "energy_scaling_frontier_complete",
+      "passed": true,
+      "detail": "points=15, levels=['central', 'high', 'low']"
+    },
+    {
+      "check": "energy_scaling_allocation_and_relative_results_invariant",
+      "passed": true,
+      "detail": "maximum_absolute_difference=2.13162820728e-14"
+    }
+  ]
+}

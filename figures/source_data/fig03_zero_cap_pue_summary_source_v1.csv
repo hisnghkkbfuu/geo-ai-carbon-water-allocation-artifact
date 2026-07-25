@@ -1,0 +1,4 @@
+pue_scenario,scenario_count,carbon_change_pct_vs_status_quo_minimum,carbon_change_pct_vs_status_quo_q25,carbon_change_pct_vs_status_quo_median,carbon_change_pct_vs_status_quo_q75,carbon_change_pct_vs_status_quo_maximum
+hub_policy_compliant,81,-48.04243236374308,-14.097855736000476,-6.541655409384783,-6.3629768121131755e-09,-5.017464221879209e-09
+legacy_stress,81,-48.15084106804337,-14.129876288840403,-6.841874430566364,-6.3629657098829284e-09,-5.017486426339701e-09
+uniform_new_build,81,-47.915169971738415,-14.060266391362276,-6.1892243845194095,-6.3629768121131755e-09,-5.017464221879209e-09
